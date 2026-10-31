@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+
+    <!-- Tailwind CSS CDN for instant rendering -->
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-50 text-slate-800">
+
+    <!-- Responsive Navbar-->
+    <nav class="p-3 bg-green-100 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">GREENDEN</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="./index.html">home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="./product.html">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Form Section -->
+    <section class="px-4 md:px-8 mt-10 mb-12">
+        <div class="max-w-xl mx-auto bg-white p-6 md:p-8 rounded-xl shadow-sm border border-slate-200">
+            <div class="mb-8">
+                <h2 class="text-3xl font-bold text-slate-900 mb-3 md:text-4xl">
+                    Contact us
+                </h2>
+                <p class="text-base leading-relaxed text-slate-600">
+                    Have a question, need support, or want to discuss your next project? We’re here to help.
+                </p>
+            </div>
+
+            <form class="space-y-5">
+                <div>
+                    <label for="name" class="mb-2 text-slate-900 font-medium text-sm inline-block">Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Doe"
+                        class="px-3.5 py-2.5 text-sm text-slate-900 w-full rounded-md border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600">
+                </div>
+                <div>
+                    <label for="email" class="mb-2 text-slate-900 font-medium text-sm inline-block">Email</label>
+                    <input type="email" id="email" name="email" placeholder="john@example.com"
+                        class="px-3.5 py-2.5 text-sm text-slate-900 w-full rounded-md border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600">
+                </div>
+                <div>
+                    <label for="phone" class="mb-2 text-slate-900 font-medium text-sm inline-block">Phone number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+1 (800) 259-854"
+                        class="px-3.5 py-2.5 text-sm text-slate-900 w-full rounded-md border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600">
+                </div>
+                <div>
+                    <label for="company" class="mb-2 text-slate-900 font-medium text-sm inline-block">Company</label>
+                    <input type="text" id="company" name="company" placeholder="XYZ Pvt. Ltd."
+                        class="px-3.5 py-2.5 text-sm text-slate-900 w-full rounded-md border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600">
+                </div>
+                <div>
+                    <label for="message" class="mb-2 text-slate-900 font-medium text-sm inline-block">Message</label>
+                    <textarea placeholder="Write message..." rows="5" id="message" name="message"
+                        class="px-3.5 py-2.5 text-sm text-slate-900 w-full rounded-md border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600"></textarea>
+                </div>
+
+                <button type="submit"
+                    class="w-full sm:w-auto py-2.5 px-6 text-sm rounded-md font-semibold text-white bg-emerald-600 hover:bg-emerald-700 transition-colors focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                    Send message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-emerald-100 p-8 flex flex-col gap-3 text-emerald-950">
+        <h1 class="font-bold text-2xl">Greenden</h1>
+        <p class="text-sm text-emerald-800">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, autem</p>
+        <p class="text-xs text-emerald-700 mt-2">© 2026 greenden.com</p>
+    </footer>
+
+</body>
+
+</html>

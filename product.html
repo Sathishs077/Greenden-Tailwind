@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+
+    <!--Tailwind CSS link-->
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Responsive Navbar-->
+    <nav class="p-3 bg-green-100 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">GREENDEN</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            class="size-6 md:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="./index.html">home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="./product.html">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Our Plants -->
+    <section class="p-4 text-center">
+        <h1 class="font-bold text-3xl mt-5">Our Plants</h1>
+        <input type="text" placeholder="Search For Plants..." class="rounded-3xl p-2 border border-black mt-5" style="width:60%;">
+        <div class="grid grid-cols-2 md:grid-cols-4 mt-5 gap-5">
+            <div>
+                <img src="./imgs/best_1.jpg" alt="Rose Plant" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Rose Plant</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./imgs/best_2.jpg" alt="Lily plant" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Lily Plant</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./imgs/best_3.jpg" alt="Spider plant" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Spider Plant</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./imgs/best_4.jpg" alt="Rosemery Plant" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Rosemery Plant</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./imgs/best_5.jpg" alt="jasmine Plant" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Jasmine plant</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./imgs/best_6.jpg" alt="Cherry Blossem" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>cherry blossem</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./imgs/best_7.jpg" alt="Money Plant" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Money Plant</h1>
+                <p>$20</p>
+            </div>
+            <div>
+                <img src="./imgs/best_8.jpg" alt="Alovera Plant" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <h1>Alovera Plant</h1>
+                <p>$20</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+     <section class="bg-green-100 p-8 flex flex-col gap-4 mt-5">
+        <h1 class="font-bold text-3xl">Greenden</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, autem</p>
+        <p>@ 2026 greenden.com</p>
+     </section>
+
+</body>
+
+</html>
